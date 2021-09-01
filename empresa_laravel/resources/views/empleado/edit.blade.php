@@ -13,7 +13,7 @@
   <body>
 
   <br>
-	  	<h1 class="text-center"> Formulario Editar Empleado </h1>
+	  	<h1 class="text-center" style="margin-left: 80px; margin-right: 80px; padding: 15px; background-color: #001940; color:white;"> Formulario Editar Empleado </h1>
 
 	  <div class="container"> <!--{{ url('/empleado/store') }}-->
 		  <form action="{{ url('/empleado/'.$empleado -> id) }}" method="POST" enctype="multipart/form-data">

@@ -13,13 +13,12 @@
   <body>
 
   <br>
-	  	<h1 class="text-center"> Formulario Empleados </h1>
+	  	<h1 class="text-center" style="margin-left: 80px; margin-right: 80px; padding: 15px; background-color: #001940; color:white;"> Formulario Empleados </h1>
 
 	  <div class="container">
 		  <form action="{{ url('/empleado/store') }}" method="GET" enctype="multipart/form-data">
 			@csrf
 			  <div class="col">
-				  
 			  	<div class="mb-3">
 					<label for="lbl_codigo" class="form-label"><b>Codigo</b></label>
 					<input type="text" name="codigo" id="codigo" class="form-control" placeholder="E001" required>

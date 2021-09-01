@@ -12,12 +12,11 @@
   </head>
   <body>
   <br>
-	<h1 class="text-center"> Lista de Empleados </h1>
+	<h1 class="text-center" style="margin-left: 80px; margin-right: 80px; padding: 15px; background-color: #001940; color:white;"> Lista de Empleados </h1>
     
   <div class="container">
   
   <div class="mb-3">
-    <!--name="btn_agregar" id="btn_agregar"-->
 		<a href="{{ url('/empleado/create') }}" class="btn btn-primary"> Agregar Nuevo </a>
 	</div>
 
